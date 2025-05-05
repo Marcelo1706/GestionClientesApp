@@ -1,5 +1,6 @@
 ﻿ 
-<%@ Page Language="VB" AutoEventWireup="false" CodeFile="Clientes.aspx.vb" Inherits="Clientes" MasterPageFile="~/Site.Master" %>  
+<%@ Page Language="VB" AutoEventWireup="false" CodeFile="Clientes.aspx.vb" Inherits="Clientes" MasterPageFile="~/Site.Master" %>
+
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">  
     <div class="container-fluid">  
         <div class="row mb-4">  

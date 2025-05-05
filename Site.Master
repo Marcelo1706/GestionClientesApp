@@ -142,6 +142,9 @@
                         <li class="nav-item"><a class="nav-link" runat="server" href="~/Bitacora.aspx">Bitácora del Sistema</a></li>
                         <li class="nav-item"><a class="nav-link" runat="server" href="~/Usuarios.aspx">Usuarios</a></li>
                     </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><asp:LinkButton ID="lnkLogout" runat="server" OnClick="lnkLogout_Click" CssClass="nav-link">Cerrar sesión</asp:LinkButton></li>
+                    </ul>
                 </div>
             </div>
         </nav>
